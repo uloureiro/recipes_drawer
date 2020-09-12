@@ -32,6 +32,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "dotenv-rails", "~> 2.7"
+  gem 'rspec-rails', '~> 4.0.1'
 end
 
 group :development do
@@ -61,3 +62,7 @@ gem "contentful", "~> 2.15"
 gem "pry", "~> 0.9.7.4", :group => :development
 
 gem "pry-nav", "~> 0.0.4", :group => :development
+
+gem "rack-cors", "~> 1.1"
+
+gem "rspec", "~> 3.9"
