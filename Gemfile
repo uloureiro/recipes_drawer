@@ -66,3 +66,7 @@ gem "pry-nav", "~> 0.0.4", :group => :development
 gem "rack-cors", "~> 1.1"
 
 gem "rspec", "~> 3.9"
+
+gem "webmock", "~> 3.8"
+
+gem "multi_json", "~> 1.15"
